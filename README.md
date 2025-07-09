@@ -11,21 +11,25 @@ This program is a test program, although it works correctly for generating masks
 As a result, the Python code is quite messy and full of annotations and test functions.
 
 ## Needed external modules in python:
-opencv-python (cv2),
+PySide6,
 robotpy_apriltag,
-PySide6
+opencv-python (cv2),
 
-exif,
 imageio,
-csv,
-pywin32
-
+exif,
 plyer,
+pywin32,
+csv,
+
 os,
 pathlib,
 time,
 math,
 numpy
+
+## Install with pip in command line the needed modules:
+
+pip install PySide6 robotpy_apriltag opencv-python imageio exif plyer pywin32 csv
 
 ## Steps for masks computing
 1. Put the photographs concerned by the same parameters for mask generation in the same folder. JPG file format is mandatory.
