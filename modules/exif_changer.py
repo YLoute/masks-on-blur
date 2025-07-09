@@ -44,7 +44,7 @@ class Clean_some_exif(object):
             print(im)
             with open(join(self.folder, im), 'rb') as f:
                 img = Image(f)
-                print(img.list_all())
+                #print(img.list_all())
                 if 'orientation' in img.list_all():
                     print(img.orientation)
                     del img.orientation
