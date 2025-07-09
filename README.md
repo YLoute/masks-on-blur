@@ -11,13 +11,14 @@ This program is a test program, although it works correctly for generating masks
 As a result, the Python code is quite messy and full of annotations and test functions.
 
 ## Needed external modules in python:
-cv2,
+opencv-python (cv2),
 robotpy_apriltag,
 PySide6
 
 exif,
 imageio,
-csv
+csv,
+pywin32
 
 plyer,
 os,
