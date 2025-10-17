@@ -1,3 +1,13 @@
+# Initial Publication
+This interface was initially developped to compute the masks for this study:
+
+>**Blurred Areas in Very Short Range Photogrammetry: A Flexible Alternative to Focus-Stacking. Case Study of a Complex-Geometry Ornament of Strasbourg’s Cathedral, France.**
+
+(2025. Yannick Faure, Pierre Grussenmeyer, and Tania Landes. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences. X-M-2-2025. 89--96 )
+
+https://doi.org/10.5194/isprs-annals-X-M-2-2025-89-2025
+
+
 # masks-on-blur
 Coded in python with a Graphical User Interface (GUI)
 Created to generate masks on blurred areas with Laplacian Pyramid method on blurred areas for close-range Structure from Motion (SfM).
